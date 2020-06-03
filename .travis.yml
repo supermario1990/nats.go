@@ -1,7 +1,6 @@
 language: go
 go:
 - 1.14.x
-- 1.13.x
 env:
 - GO111MODULE=off
 - GOFLAGS=-modfile=go_test.mod
